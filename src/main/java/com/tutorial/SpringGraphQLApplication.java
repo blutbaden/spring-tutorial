@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringTutorialApplication {
+public class SpringGraphQLApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringTutorialApplication.class, args);
+        SpringApplication.run(SpringGraphQLApplication.class, args);
     }
 
 }
