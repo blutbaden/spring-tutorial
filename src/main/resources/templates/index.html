@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="webjars/bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="container">
+    <table class="table">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+        <tr th:each="c:${currencies}">
+            <td th:text="${c.id}"></td>
+            <td th:text="${c.name}"></td>
+            <td th:text="${c.price}"></td>
+            <td><button class="btn btn-primary" th:attr="onclick=|onSubmit('${c.id}')|">show</button></td>
+            </th>
+        </tr>
+    </table>
+    <div id="chart" style="width: 100%;height: 250px"></div>
+</div>
+<script th:src="@{/js/smoothie.js}"></script>
+<script th:src="@{/js/chart.js}"></script>
+<script th:src="@{/js/index.js}"></script>
+</body>
+</html>
