@@ -1,7 +1,7 @@
-package com.reactive.springwebflux.web;
+package com.tutorial.web;
 
-import com.reactive.springwebflux.repositories.CurrencyRepository;
-import com.reactive.springwebflux.repositories.TransactionRepository;
+import com.tutorial.repositories.CurrencyRepository;
+import com.tutorial.repositories.TransactionRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,8 +1,8 @@
-package com.reactive.springwebflux.web;
+package com.tutorial.web;
 
-import com.reactive.springwebflux.entities.Transaction;
-import com.reactive.springwebflux.repositories.CurrencyRepository;
-import com.reactive.springwebflux.repositories.TransactionRepository;
+import com.tutorial.entities.Transaction;
+import com.tutorial.repositories.CurrencyRepository;
+import com.tutorial.repositories.TransactionRepository;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;

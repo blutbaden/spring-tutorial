@@ -1,6 +1,6 @@
-package com.reactive.springwebflux.repositories;
+package com.tutorial.repositories;
 
-import com.reactive.springwebflux.entities.Currency;
+import com.tutorial.entities.Currency;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
 

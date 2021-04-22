@@ -1,7 +1,7 @@
-package com.reactive.springwebflux.web;
+package com.tutorial.web;
 
-import com.reactive.springwebflux.entities.Currency;
-import com.reactive.springwebflux.repositories.CurrencyRepository;
+import com.tutorial.entities.Currency;
+import com.tutorial.repositories.CurrencyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;

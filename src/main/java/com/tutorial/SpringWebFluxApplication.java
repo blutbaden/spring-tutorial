@@ -1,8 +1,8 @@
-package com.reactive.springwebflux;
+package com.tutorial;
 
-import com.reactive.springwebflux.entities.Currency;
-import com.reactive.springwebflux.repositories.CurrencyRepository;
-import com.reactive.springwebflux.repositories.TransactionRepository;
+import com.tutorial.entities.Currency;
+import com.tutorial.repositories.CurrencyRepository;
+import com.tutorial.repositories.TransactionRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
