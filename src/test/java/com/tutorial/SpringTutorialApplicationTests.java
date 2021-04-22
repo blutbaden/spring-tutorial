@@ -1,10 +1,10 @@
-package com.reactive.springwebflux;
+package com.tutorial;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringWebFluxApplicationTests {
+class SpringTutorialApplicationTests {
 
     @Test
     void contextLoads() {
