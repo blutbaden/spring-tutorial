@@ -1,10 +1,16 @@
 # Getting Started
 
-### Branch spring-web-flux
-    Spring boot project using Spring Web Flux and Thymeleaf.
+### Build the native application
+The native application can be built as follows:
     
-### Branch spring-graphql
-    Spring boot project using GraphQL.
+    mvn spring-boot:build-image
+    
+### Run the native application
+To run the application, you can use docker
+    
+    docker run --rm -p 8080:8080 rest-service:0.0.1-SNAPSHOT
 
+### Testing api
+To check if the application is running you can call this api:
 
-Server is running on port 8080.
+    localhost:8080/greeting
