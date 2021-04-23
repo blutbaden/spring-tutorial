@@ -8,7 +8,7 @@ The native application can be built as follows:
 ### Run the native application
 To run the application, you can use docker
     
-    docker run --rm -p 8080:8080 rest-service:0.0.1-SNAPSHOT
+    docker run --rm -p 8080:8080 spring-tutorial:0.0.1-SNAPSHOT
 
 ### Testing api
 To check if the application is running you can call this api:
